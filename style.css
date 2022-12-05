@@ -1,0 +1,46 @@
+body {
+    min-height: 600px;
+    font-family: "Roboto Mono", monospace;
+    background: linear-gradient(236.85deg, #ff8c00 27.26%, #ffff33 96.03%);
+    color: white;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    padding: 20px;
+    height: 20vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .botao1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 15px;
+    background: #ee2323;
+    background: #ffe300;
+    background-image: -webkit-linear-gradient(top, #ffe300, #ee550a);
+    background-image: -moz-linear-gradient(top, #ffe300, #ee550a);
+    background-image: -ms-linear-gradient(top, #ffe300, #ee550a);
+    background-image: -o-linear-gradient(top, #ffe300, #ee550a);
+    background-image: -webkit-gradient(to bottom, #ffe300, #ee550a);
+  }
+  

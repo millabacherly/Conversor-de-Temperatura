@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev Alura - Aula 02</title>
+</head>
+<body>    
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de Temperatura</h1>
+      <p class="page-subtitle">
+        Selecione as opções para converter!
+      </p>
+  
+      <select id="temp" class="botao1" temperatura="select">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+  
+      <select id="temp2" class="botao1" temperatura="select2">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+  
+    </div>
+    <br>
+    <br>  
+    <div class="temperatura">
+      <label for="temperatura_base">Coloque aqui a temperatura que deseja converter:</label>
+      <br>
+      <br>
+      <input type="number" id="temperatura" />
+    </div>
+    <br>
+    <div class="botao">
+    <button id="calculo">Calcular</button>
+    </div>
+    <br>  
+    <label class=resultado id="resultado"></label>
+    <br>
+    <br>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  </body>
+  <script src="/index.js"></script>
+</html>
